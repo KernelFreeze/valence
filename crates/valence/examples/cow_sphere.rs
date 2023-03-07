@@ -3,8 +3,8 @@ use std::f64::consts::TAU;
 use glam::{DQuat, EulerRot};
 use valence::client::despawn_disconnected_clients;
 use valence::client::event::default_event_handler;
-use valence::math::to_yaw_and_pitch;
 use valence::prelude::*;
+use valence::util::to_yaw_and_pitch;
 
 const SPHERE_CENTER: DVec3 = DVec3::new(0.5, SPAWN_POS.y as f64 + 2.0, 0.5);
 const SPHERE_AMOUNT: usize = 200;
